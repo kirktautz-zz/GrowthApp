@@ -105,8 +105,8 @@ struct User {
                 completion("wrong password")
                 return false
             } else {
-                completion("WELCOME TO THE THUNDER DOME, BITCH! ")
-                print("WELCOME TO THE THUNDER DOME, BITCH!")
+                completion("WELCOME")
+                print("WELCOME!")
                 return true
             }
             
