@@ -16,7 +16,7 @@ struct DatabaseConnect {
     
     public func connectToDB() throws -> Database {
         
-        let server = try Server("mongodb://kirk:888323@localhost:27017")
+        let server = try Server("mongodb://<USERNAME>:<PASSWORD>@localhost:27017")
         let databaseToConnect = server["dev"]
         
         return databaseToConnect
